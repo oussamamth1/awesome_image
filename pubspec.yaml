@@ -1,7 +1,7 @@
 name: awesome_image
-description: "A new Flutter package project."
+description: "A Flutter package for image processing and manipulation."
 version: 0.0.1
-homepage: https://github.com/your_username/awesome_image
+homepage: https://github.com/oussamamth1/awesome_image.git
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
