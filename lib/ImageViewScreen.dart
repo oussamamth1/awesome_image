@@ -6,8 +6,9 @@ class ImageWithDynamicBackgroundColorusersList extends StatefulWidget {
   final String imageUrl;
   final bool isCirculair;
   final bool color;
- final double? width;
-final  double? height;
+  final double? width;
+  final double? height;
+
   ImageWithDynamicBackgroundColorusersList({
     required this.color,
     required this.imageUrl,
@@ -48,7 +49,7 @@ class _ImageWithDynamicBackgroundColorusersListState
     return widget.isCirculair
         ? Container(
             width: widget.width ?? 50,
-            height: widget.height ??50,
+            height: widget.height ?? 50,
             padding: const EdgeInsets.all(2.5),
             decoration: BoxDecoration(
               shape: BoxShape.circle,

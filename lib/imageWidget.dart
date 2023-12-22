@@ -21,22 +21,21 @@ class ImageWidget extends StatelessWidget {
     return Stack(
       children: [
         buildImage(),
-  
       ],
     );
   }
 
   Widget buildImage() {
     final image =
-        (imagePath.contains('https://') || imagePath.contains('http://'))
-            ? NetworkImage(imagePath)
-            : FileImage(File(imagePath));
+        (imagePath.startsWith('https://') || imagePath.startsWith('http://'))
+            ? Image.network(imagePath)
+            : Image.file(File(imagePath));
 
     return ClipOval(
       child: Material(
         color: Colors.transparent,
         child: Ink.image(
-          image: image as ImageProvider,
+          image: image.image,
           fit: BoxFit.cover,
           width: 128,
           height: 128,
