@@ -39,7 +39,7 @@ class _ImageWithDynamicBackgroundColorusersListState
     if (mounted) {
       setState(() {
         backgroundColor = paletteGenerator.dominantColor?.color ??
-            Color.fromARGB(1, 228, 3, 3);
+           const Color.fromARGB(1, 228, 3, 3);
       });
     }
   }
