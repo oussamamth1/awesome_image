@@ -52,7 +52,7 @@ class _ImageWithDynamicBackgroundColorusersListState
         ? Container(
             width: widget.width ?? 50,
             height: widget.height ??50,
-            padding: EdgeInsets.all(2.5),
+            padding: const EdgeInsets.all(2.5),
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: widget.color ? backgroundColor : Colors.black,
