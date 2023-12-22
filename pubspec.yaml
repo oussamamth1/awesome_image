@@ -1,20 +1,21 @@
-name: awesome_image
-description: "A Flutter package for image processing and manipulation."
-version: 0.0.1
-homepage: https://github.com/oussamamth1/awesome_image.git
+  name: awesome_image
+  description: "A Flutter package for image processing and manipulation."
 
-environment:
-  sdk: '>=3.2.3 <4.0.0'
-  flutter: ">=1.17.0"
+  version: 0.0.1
+  homepage: https://github.com/oussamamth1/awesome_image.git
 
-dependencies:
+  environment:
+    sdk: '>=3.2.3 <4.0.0'
+    flutter: ">=1.17.0"
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_lints: ^2.0.0
+
   flutter:
-    sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-
-flutter:
-  # ... rest of your flutter configuration
+    # ... rest of your flutter configuration
