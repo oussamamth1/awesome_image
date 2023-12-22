@@ -1,8 +1,5 @@
-import 'dart:ffi';
-
 import 'package:awesome_image/imageWidget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:palette_generator/palette_generator.dart';
 
 class ImageWithDynamicBackgroundColorusersList extends StatefulWidget {
