@@ -1,7 +1,7 @@
 name: awesome_image
 description: "A Flutter package for image processing and manipulation."
 
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/oussamamth1/awesome_image.git
 
 environment:
